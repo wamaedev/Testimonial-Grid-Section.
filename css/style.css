@@ -1,0 +1,46 @@
+:root {
+  --ff-sans: 'Barlow Semi Condensed', sans-serif;
+
+  --fw-light: 200;
+  --fw-normal: 500;
+  --fw-bold: 600;
+
+  --fs-400: 0.9275rem;
+  --fs-500: 1.5rem;
+  --fs-600: 1.625rem;
+  --fs-900: 2.5rem;
+
+
+  /* Primary */
+  --clr-primary-50: hsl(260, 100%, 95%);
+  --clr-primary-300: hsl(264, 82%, 80%);
+  --clr-primary500: hsl(263, 55%, 52%);
+
+  /* Neutral */
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-neutral-100: hsl(214, 17%, 92%);
+  --clr-neutral-200: hsl(0, 0%, 81%);
+  --clr-neutral-400: hsl(224, 10%, 45%);
+  --clr-neutral-500: hsl(217, 19%, 35%);
+  --clr-dark-blue: hsl(219, 29%, 14%);
+  --clr-black: hsl(0, 0%, 7%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--clr-neutral-100);
+  font-family: var(--ff-sans);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
